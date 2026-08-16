@@ -3,8 +3,7 @@
 # General GRF strings
 STR_GRF_NAME:Fantasy Banners
 STR_GRF_DESC:A collection of fantastic banners to decorate your save.
-STR_GRF_URL:https://github.com/AH1684/Jibjab-Objects
-
+STR_GRF_URL:https://github.com/AH1684/fantasybanners-openttd
 
 STR_FBN2:Banners
 STR_OBJ_flag0:Banner of The Republic of Greifenland
