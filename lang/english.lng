@@ -1,0 +1,27 @@
+##grflangid 0x01
+
+# General GRF strings
+STR_GRF_NAME:Fantasy Banners
+STR_GRF_DESC:A collection of fantastic banners to decorate your save.
+STR_GRF_URL:https://github.com/AH1684/Jibjab-Objects
+
+
+STR_FBN2:Banners
+STR_OBJ_flag0:Banner of The Republic of Greifenland
+STR_OBJ_flag1:Banner of The Tsardom of Zoryavia
+STR_OBJ_flag2:Banner of The Kingdom of Roncevalie
+STR_OBJ_flag3:Banner of The Kingdom of Dobrawia
+STR_OBJ_flag4:Banner of The Halezeelanden Republic
+STR_OBJ_flag5:Banner of The Commonwealth of Avalon
+STR_OBJ_flag6:Banner of The High Kingdom of Tír Eeamhain
+STR_OBJ_flag7:Banner of Tanic Electors of Strathcairn
+STR_OBJ_flag8:Banner of Republic of Tartesia
+STR_OBJ_flag9:Banner of Perfidious & Dictatorial Gnomish Hierarchy
+STR_OBJ_flag10:Banner of The Free Port of Dunwald
+STR_OBJ_flag11:Banner of The Kingdom of Nasenca
+STR_OBJ_flag12:Banner of The Kingdom of Oberthal
+STR_OBJ_flag13:Banner of The Kingdom of Körmény
+STR_OBJ_flag14:Banner of The Storälv Union
+STR_OBJ_flag15:Banner of The Cucenti Confederation
+STR_OBJ_flag16:Banner of Horde of Vardamaa
+

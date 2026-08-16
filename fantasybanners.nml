@@ -1,0 +1,414 @@
+grf {
+	grfid: "FBP2";
+	name: string(STR_GRF_NAME);
+	desc: string(STR_GRF_DESC);
+	url:  string(STR_GRF_URL);
+	version: 1;
+	min_compatible_version: 0;
+}
+
+// Sprites
+spriteset(spriteset_tower, "gfx/banners.png") {[ 3, 8, 30, 67, -14, -50 ]}
+
+spriteset(spriteset_hanger, "gfx/banners.png") {
+[ 44, 5, 28, 15, 12, 10 ]
+[ 44, 33, 28, 15, -10, 11 ]
+}
+
+spriteset(spriteset_flags, "gfx/banners.png") {
+//Greifen
+[ 80, 4, 20, 50, 16, 16 ]
+[ 80, 60, 20, 50, -6, 16 ]
+//Zoryavia
+[ 102, 4, 20, 50, 16, 16 ]
+[ 102, 60, 20, 50, -6, 16 ]
+//Roncevalie
+[ 124, 4, 20, 50, 16, 16 ]
+[ 124, 60, 20, 50, -6, 16 ]
+//Dobrawia
+[ 146, 4, 20, 50, 16, 16 ]
+[ 146, 60, 20, 50, -6, 16 ]
+//Halezeeland
+[ 168, 4, 20, 50, 16, 16 ]
+[ 168, 60, 20, 50, -6, 16 ]
+//Avalon
+[ 190, 4, 20, 50, 16, 16 ]
+[ 190, 60, 20, 50, -6, 16 ]
+//Tir Earnhain
+[ 212, 4, 20, 50, 16, 16 ]
+[ 212, 60, 20, 50, -6, 16 ]
+//Strathcairn
+[ 234, 4, 22, 50, 16, 16 ]
+[ 234, 60, 22, 50, -6, 16 ]
+//Tartesia
+[ 258, 4, 20, 50, 16, 16 ]
+[ 258, 60, 20, 50, -6, 16 ]
+//Gnomish Hierarchy
+[ 280, 4, 20, 50, 16, 16 ]
+[ 280, 60, 20, 50, -6, 16 ]
+//Dunwald
+[ 302, 2, 20, 52, 16, 14 ]
+[ 302, 58, 20, 52, -6, 14 ]
+//Nascenca
+[ 324, 4, 20, 50, 16, 16 ]
+[ 324, 60, 20, 50, -6, 16 ]
+//Oberthal
+[ 346, 4, 20, 50, 16, 16 ]
+[ 346, 60, 20, 50, -6, 16 ]
+//Kormeny
+[ 368, 4, 20, 50, 16, 16 ]
+[ 368, 60, 20, 50, -6, 16 ]
+//Storalv Union
+[ 390, 4, 20, 50, 16, 16 ]
+[ 390, 60, 20, 50, -6, 16 ]
+//Cucuteni
+[ 412, 4, 23, 52, 17, 16 ]
+[ 412, 60, 23, 52, -7, 16 ]
+//Vardamaa
+[ 437, 4, 20, 50, 16, 16 ]
+[ 437, 60, 20, 50, -6, 16 ]
+}
+
+
+spritelayout spritelayout_flag(orientation,flag) {
+    ground { sprite: GROUNDSPRITE_CONCRETE; }
+    building { sprite: spriteset_tower();
+				zextent: 70;
+				xoffset: 2;
+				yoffset: 2;
+				yextent: 12;
+				xextent: 12;}
+	childsprite {
+	sprite: spriteset_hanger(orientation);
+
+	}
+	childsprite {
+	sprite: spriteset_flags(flag+orientation);
+	}
+}
+
+//ITEMS
+
+item (FEAT_OBJECTS, object_banner0) {
+	property {
+		class:                  "FBN2";
+		classname:              string(STR_FBN2);
+		name:                   string(STR_OBJ_flag0);
+		climates_available:     ALL_CLIMATES;
+		size:                   [1, 1];
+		build_cost_multiplier:  2;
+		remove_cost_multiplier: 2;
+		introduction_date:      0x00000000;
+		end_of_life_date:       0xFFFFFFFF;
+		object_flags:           bitmask();
+		num_views:              2;
+	}
+	graphics {
+		default:         spritelayout_flag(view,0);
+		purchase:        spritelayout_flag(view,0);
+	}
+}
+
+item (FEAT_OBJECTS, object_banner1) {
+	property {
+		class:                  "FBN2";
+		name:                   string(STR_OBJ_flag1);
+		climates_available:     ALL_CLIMATES;
+		size:                   [1, 1];
+		build_cost_multiplier:  2;
+		remove_cost_multiplier: 2;
+		introduction_date:      0x00000000;
+		end_of_life_date:       0xFFFFFFFF;
+		object_flags:           bitmask();
+		num_views:              2;
+	}
+	graphics {
+		default:         spritelayout_flag(view,2);
+		purchase:        spritelayout_flag(view,2);
+	}
+}
+
+item (FEAT_OBJECTS, object_banner2) {
+	property {
+		class:                  "FBN2";
+		name:                   string(STR_OBJ_flag2);
+		climates_available:     ALL_CLIMATES;
+		size:                   [1, 1];
+		build_cost_multiplier:  2;
+		remove_cost_multiplier: 2;
+		introduction_date:      0x00000000;
+		end_of_life_date:       0xFFFFFFFF;
+		object_flags:           bitmask();
+		num_views:              2;
+	}
+	graphics {
+		default:         spritelayout_flag(view,4);
+		purchase:        spritelayout_flag(view,4);
+	}
+}
+
+item (FEAT_OBJECTS, object_banner3) {
+	property {
+		class:                  "FBN2";
+		name:                   string(STR_OBJ_flag3);
+		climates_available:     ALL_CLIMATES;
+		size:                   [1, 1];
+		build_cost_multiplier:  2;
+		remove_cost_multiplier: 2;
+		introduction_date:      0x00000000;
+		end_of_life_date:       0xFFFFFFFF;
+		object_flags:           bitmask();
+		num_views:              2;
+	}
+	graphics {
+		default:         spritelayout_flag(view,6);
+		purchase:        spritelayout_flag(view,6);
+	}
+}
+
+item (FEAT_OBJECTS, object_banner4) {
+	property {
+		class:                  "FBN2";
+		name:                   string(STR_OBJ_flag4);
+		climates_available:     ALL_CLIMATES;
+		size:                   [1, 1];
+		build_cost_multiplier:  2;
+		remove_cost_multiplier: 2;
+		introduction_date:      0x00000000;
+		end_of_life_date:       0xFFFFFFFF;
+		object_flags:           bitmask();
+		num_views:              2;
+	}
+	graphics {
+		default:         spritelayout_flag(view,8);
+		purchase:        spritelayout_flag(view,8);
+	}
+}
+
+item (FEAT_OBJECTS, object_banner5) {
+	property {
+		class:                  "FBN2";
+		name:                   string(STR_OBJ_flag5);
+		climates_available:     ALL_CLIMATES;
+		size:                   [1, 1];
+		build_cost_multiplier:  2;
+		remove_cost_multiplier: 2;
+		introduction_date:      0x00000000;
+		end_of_life_date:       0xFFFFFFFF;
+		object_flags:           bitmask();
+		num_views:              2;
+	}
+	graphics {
+		default:         spritelayout_flag(view,10);
+		purchase:        spritelayout_flag(view,10);
+	}
+}
+
+item (FEAT_OBJECTS, object_banner6) {
+	property {
+		class:                  "FBN2";
+		name:                   string(STR_OBJ_flag6);
+		climates_available:     ALL_CLIMATES;
+		size:                   [1, 1];
+		build_cost_multiplier:  2;
+		remove_cost_multiplier: 2;
+		introduction_date:      0x00000000;
+		end_of_life_date:       0xFFFFFFFF;
+		object_flags:           bitmask();
+		num_views:              2;
+	}
+	graphics {
+		default:         spritelayout_flag(view,12);
+		purchase:        spritelayout_flag(view,12);
+	}
+}
+
+item (FEAT_OBJECTS, object_banner7) {
+	property {
+		class:                  "FBN2";
+		name:                   string(STR_OBJ_flag7);
+		climates_available:     ALL_CLIMATES;
+		size:                   [1, 1];
+		build_cost_multiplier:  2;
+		remove_cost_multiplier: 2;
+		introduction_date:      0x00000000;
+		end_of_life_date:       0xFFFFFFFF;
+		object_flags:           bitmask();
+		num_views:              2;
+	}
+	graphics {
+		default:         spritelayout_flag(view,14);
+		purchase:        spritelayout_flag(view,14);
+	}
+}
+
+item (FEAT_OBJECTS, object_banner8) {
+	property {
+		class:                  "FBN2";
+		name:                   string(STR_OBJ_flag8);
+		climates_available:     ALL_CLIMATES;
+		size:                   [1, 1];
+		build_cost_multiplier:  2;
+		remove_cost_multiplier: 2;
+		introduction_date:      0x00000000;
+		end_of_life_date:       0xFFFFFFFF;
+		object_flags:           bitmask();
+		num_views:              2;
+	}
+	graphics {
+		default:         spritelayout_flag(view,16);
+		purchase:        spritelayout_flag(view,16);
+	}
+}
+
+item (FEAT_OBJECTS, object_banner9) {
+	property {
+		class:                  "FBN2";
+		name:                   string(STR_OBJ_flag9);
+		climates_available:     ALL_CLIMATES;
+		size:                   [1, 1];
+		build_cost_multiplier:  2;
+		remove_cost_multiplier: 2;
+		introduction_date:      0x00000000;
+		end_of_life_date:       0xFFFFFFFF;
+		object_flags:           bitmask();
+		num_views:              2;
+	}
+	graphics {
+		default:         spritelayout_flag(view,18);
+		purchase:        spritelayout_flag(view,18);
+	}
+}
+
+item (FEAT_OBJECTS, object_banner10) {
+	property {
+		class:                  "FBN2";
+		name:                   string(STR_OBJ_flag10);
+		climates_available:     ALL_CLIMATES;
+		size:                   [1, 1];
+		build_cost_multiplier:  2;
+		remove_cost_multiplier: 2;
+		introduction_date:      0x00000000;
+		end_of_life_date:       0xFFFFFFFF;
+		object_flags:           bitmask();
+		num_views:              2;
+	}
+	graphics {
+		default:         spritelayout_flag(view,20);
+		purchase:        spritelayout_flag(view,20);
+	}
+}
+
+item (FEAT_OBJECTS, object_banner11) {
+	property {
+		class:                  "FBN2";
+		name:                   string(STR_OBJ_flag11);
+		climates_available:     ALL_CLIMATES;
+		size:                   [1, 1];
+		build_cost_multiplier:  2;
+		remove_cost_multiplier: 2;
+		introduction_date:      0x00000000;
+		end_of_life_date:       0xFFFFFFFF;
+		object_flags:           bitmask();
+		num_views:              2;
+	}
+	graphics {
+		default:         spritelayout_flag(view,22);
+		purchase:        spritelayout_flag(view,22);
+	}
+}
+
+item (FEAT_OBJECTS, object_banner12) {
+	property {
+		class:                  "FBN2";
+		name:                   string(STR_OBJ_flag12);
+		climates_available:     ALL_CLIMATES;
+		size:                   [1, 1];
+		build_cost_multiplier:  2;
+		remove_cost_multiplier: 2;
+		introduction_date:      0x00000000;
+		end_of_life_date:       0xFFFFFFFF;
+		object_flags:           bitmask();
+		num_views:              2;
+	}
+	graphics {
+		default:         spritelayout_flag(view,24);
+		purchase:        spritelayout_flag(view,24);
+	}
+}
+
+item (FEAT_OBJECTS, object_banner13) {
+	property {
+		class:                  "FBN2";
+		name:                   string(STR_OBJ_flag13);
+		climates_available:     ALL_CLIMATES;
+		size:                   [1, 1];
+		build_cost_multiplier:  2;
+		remove_cost_multiplier: 2;
+		introduction_date:      0x00000000;
+		end_of_life_date:       0xFFFFFFFF;
+		object_flags:           bitmask();
+		num_views:              2;
+	}
+	graphics {
+		default:         spritelayout_flag(view,26);
+		purchase:        spritelayout_flag(view,26);
+	}
+}
+
+item (FEAT_OBJECTS, object_banner14) {
+	property {
+		class:                  "FBN2";
+		name:                   string(STR_OBJ_flag14);
+		climates_available:     ALL_CLIMATES;
+		size:                   [1, 1];
+		build_cost_multiplier:  2;
+		remove_cost_multiplier: 2;
+		introduction_date:      0x00000000;
+		end_of_life_date:       0xFFFFFFFF;
+		object_flags:           bitmask();
+		num_views:              2;
+	}
+	graphics {
+		default:         spritelayout_flag(view,28);
+		purchase:        spritelayout_flag(view,28);
+	}
+}
+
+item (FEAT_OBJECTS, object_banner15) {
+	property {
+		class:                  "FBN2";
+		name:                   string(STR_OBJ_flag15);
+		climates_available:     ALL_CLIMATES;
+		size:                   [1, 1];
+		build_cost_multiplier:  2;
+		remove_cost_multiplier: 2;
+		introduction_date:      0x00000000;
+		end_of_life_date:       0xFFFFFFFF;
+		object_flags:           bitmask();
+		num_views:              2;
+	}
+	graphics {
+		default:         spritelayout_flag(view,30);
+		purchase:        spritelayout_flag(view,30);
+	}
+}
+
+item (FEAT_OBJECTS, object_banner16) {
+	property {
+		class:                  "FBN2";
+		name:                   string(STR_OBJ_flag16);
+		climates_available:     ALL_CLIMATES;
+		size:                   [1, 1];
+		build_cost_multiplier:  2;
+		remove_cost_multiplier: 2;
+		introduction_date:      0x00000000;
+		end_of_life_date:       0xFFFFFFFF;
+		object_flags:           bitmask();
+		num_views:              2;
+	}
+	graphics {
+		default:         spritelayout_flag(view,32);
+		purchase:        spritelayout_flag(view,32);
+	}
+}
