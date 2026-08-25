@@ -8,70 +8,546 @@ grf {
 }
 
 // Sprites
-spriteset(spriteset_tower, "gfx/banners.png") {[ 3, 8, 30, 67, -14, -50 ]}
+spriteset(spriteset_tower, "gfx/tower.png") {[ 3, 8, 30, 67, -14, -47 ]}
+spriteset (spriteset_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/empty_pixel.png") {[0, 0, 1, 1, 0, 0]}
 
-spriteset(spriteset_hanger, "gfx/banners.png") {
+spriteset(spriteset_hanger, "gfx/tower.png") {
 [ 44, 5, 28, 15, 12, 10 ]
-[ 44, 33, 28, 15, -10, 11 ]
+[ 44, 33, 28, 15, -10, 10 ]
+}
+//Spinner Sprite
+spriteset(spriteset_spinner, "gfx/tower.png") {
+[ 80, 1, 10, 8, 10, -1 ]
+[ 80, 1, 10, 8, 10, -1 ]
 }
 
-spriteset(spriteset_flags, "gfx/banners.png") {
+//Sprites for Flags
+spriteset(spriteset_flags, "gfx/frames.png") {
+//Frame0
 //Greifen
-[ 80, 4, 20, 50, 16, 16 ]
-[ 80, 60, 20, 50, -6, 16 ]
+[ 10, 4, 21, 50, 16, 16 ]
+[ 9, 60, 21, 50, -7, 16 ]
 //Zoryavia
-[ 102, 4, 20, 50, 16, 16 ]
-[ 102, 60, 20, 50, -6, 16 ]
+[ 38, 4, 21, 50, 16, 16 ]
+[ 37, 60, 21, 50, -7, 16 ]
 //Roncevalie
-[ 124, 4, 20, 50, 16, 16 ]
-[ 124, 60, 20, 50, -6, 16 ]
+[ 65, 4, 21, 50, 16, 16 ]
+[ 64, 60, 21, 50, -7, 16 ]
 //Dobrawia
-[ 146, 4, 20, 50, 16, 16 ]
-[ 146, 60, 20, 50, -6, 16 ]
+[ 93, 4, 21, 50, 16, 16 ]
+[ 92, 60, 21, 50, -7, 16 ]
 //Halezeeland
-[ 168, 4, 20, 50, 16, 16 ]
-[ 168, 60, 20, 50, -6, 16 ]
+[ 121, 4, 21, 50, 16, 16 ]
+[ 120, 60, 21, 50, -7, 16 ]
 //Avalon
-[ 190, 4, 20, 50, 16, 16 ]
-[ 190, 60, 20, 50, -6, 16 ]
+[ 149, 4, 21, 50, 16, 16 ]
+[ 148, 60, 21, 50, -7, 16 ]
 //Tir Earnhain
-[ 212, 4, 20, 50, 16, 16 ]
-[ 212, 60, 20, 50, -6, 16 ]
+[ 177, 4, 21, 50, 16, 16 ]
+[ 176, 60, 21, 50, -7, 16 ]
 //Strathcairn
-[ 234, 4, 22, 50, 16, 16 ]
-[ 234, 60, 22, 50, -6, 16 ]
+[ 205, 4, 23, 50, 16, 16 ]
+[ 204, 60, 23, 50, -7, 16 ]
 //Tartesia
-[ 258, 4, 20, 50, 16, 16 ]
-[ 258, 60, 20, 50, -6, 16 ]
+[ 235, 4, 21, 50, 16, 16 ]
+[ 234, 60, 21, 50, -7, 16 ]
 //Gnomish Hierarchy
-[ 280, 4, 20, 50, 16, 16 ]
-[ 280, 60, 20, 50, -6, 16 ]
+[ 263, 4, 21, 50, 16, 16 ]
+[ 262, 60, 21, 50, -7, 16 ]
 //Dunwald
-[ 302, 2, 20, 52, 16, 14 ]
-[ 302, 58, 20, 52, -6, 14 ]
+[ 291, 2, 21, 52, 16, 14 ]
+[ 290, 58, 21, 52, -7, 14 ]
 //Nascenca
-[ 324, 4, 20, 50, 16, 16 ]
-[ 324, 60, 20, 50, -6, 16 ]
+[ 319, 4, 21, 50, 16, 16 ]
+[ 318, 60, 21, 50, -7, 16 ]
 //Oberthal
-[ 346, 4, 20, 50, 16, 16 ]
-[ 346, 60, 20, 50, -6, 16 ]
+[ 347, 4, 21, 50, 16, 16 ]
+[ 346, 60, 21, 50, -7, 16 ]
 //Kormeny
-[ 368, 4, 20, 50, 16, 16 ]
-[ 368, 60, 20, 50, -6, 16 ]
+[ 375, 4, 21, 50, 16, 16 ]
+[ 374, 60, 21, 50, -7, 16 ]
 //Storalv Union
-[ 390, 4, 20, 50, 16, 16 ]
-[ 390, 60, 20, 50, -6, 16 ]
+[ 403, 4, 21, 50, 16, 16 ]
+[ 402, 60, 21, 50, -7, 16 ]
 //Cucuteni
-[ 412, 4, 23, 52, 17, 16 ]
-[ 412, 60, 23, 52, -7, 16 ]
+[ 431, 4, 24, 52, 17, 16 ]
+[ 430, 60, 24, 52, -8, 16 ]
 //Vardamaa
-[ 437, 4, 20, 50, 16, 16 ]
-[ 437, 60, 20, 50, -6, 16 ]
+[ 461, 4, 21, 50, 16, 16 ]
+[ 460, 60, 21, 50, -7, 16 ]
+//Frame1
+//Greifen
+[ 10, 118, 21, 50, 16, 16 ]
+[ 9, 174, 21, 50, -7, 16 ]
+//Zoryavia
+[ 38, 118, 21, 50, 16, 16 ]
+[ 37, 174, 21, 50, -7, 16 ]
+//Roncevalie
+[ 65, 118, 21, 50, 16, 16 ]
+[ 64, 174, 21, 50, -7, 16 ]
+//Dobrawia
+[ 93, 118, 21, 50, 16, 16 ]
+[ 92, 174, 21, 50, -7, 16 ]
+//Halezeeland
+[ 121, 118, 21, 50, 16, 16 ]
+[ 120, 174, 21, 50, -7, 16 ]
+//Avalon
+[ 149, 118, 21, 50, 16, 16 ]
+[ 148, 174, 21, 50, -7, 16 ]
+//Tir Earnhain
+[ 177, 118, 21, 50, 16, 16 ]
+[ 176, 174, 21, 50, -7, 16 ]
+//Strathcairn
+[ 205, 118, 23, 50, 16, 16 ]
+[ 204, 174, 23, 50, -7, 16 ]
+//Tartesia
+[ 235, 118, 21, 50, 16, 16 ]
+[ 234, 174, 21, 50, -7, 16 ]
+//Gnomish Hierarchy
+[ 263, 118, 21, 50, 16, 16 ]
+[ 262, 174, 21, 50, -7, 16 ]
+//Dunwald
+[ 291, 116, 21, 52, 16, 14 ]
+[ 290, 172, 21, 52, -7, 14 ]
+//Nascenca
+[ 319, 118, 21, 50, 16, 16 ]
+[ 318, 174, 21, 50, -7, 16 ]
+//Oberthal
+[ 347, 118, 21, 50, 16, 16 ]
+[ 346, 174, 21, 50, -7, 16 ]
+//Kormeny
+[ 375, 118, 21, 50, 16, 16 ]
+[ 374, 174, 21, 50, -7, 16 ]
+//Storalv Union
+[ 403, 118, 21, 50, 16, 16 ]
+[ 402, 174, 21, 50, -7, 16 ]
+//Cucuteni
+[ 431, 118, 24, 52, 17, 16 ]
+[ 430, 174, 24, 52, -8, 16 ]
+//Vardamaa
+[ 461, 118, 21, 50, 16, 16 ]
+[ 460, 174, 21, 50, -7, 16 ]
+//Frame2
+//Greifen
+[ 10, 232, 21, 50, 16, 16 ]
+[ 9, 288, 21, 50, -7, 16 ]
+//Zoryavia
+[ 38, 232, 21, 50, 16, 16 ]
+[ 37, 288, 21, 50, -7, 16 ]
+//Roncevalie
+[ 65, 232, 21, 50, 16, 16 ]
+[ 64, 288, 21, 50, -7, 16 ]
+//Dobrawia
+[ 93, 232, 21, 50, 16, 16 ]
+[ 92, 288, 21, 50, -7, 16 ]
+//Halezeeland
+[ 121, 232, 21, 50, 16, 16 ]
+[ 120, 288, 21, 50, -7, 16 ]
+//Avalon
+[ 149, 232, 21, 50, 16, 16 ]
+[ 148, 288, 21, 50, -7, 16 ]
+//Tir Earnhain
+[ 177, 232, 21, 50, 16, 16 ]
+[ 176, 288, 21, 50, -7, 16 ]
+//Strathcairn
+[ 205, 232, 23, 50, 16, 16 ]
+[ 204, 288, 23, 50, -7, 16 ]
+//Tartesia
+[ 235, 232, 21, 50, 16, 16 ]
+[ 234, 288, 21, 50, -7, 16 ]
+//Gnomish Hierarchy
+[ 263, 232, 21, 50, 16, 16 ]
+[ 262, 288, 21, 50, -7, 16 ]
+//Dunwald
+[ 291, 230, 21, 52, 16, 14 ]
+[ 290, 286, 21, 52, -7, 14 ]
+//Nascenca
+[ 319, 232, 21, 50, 16, 16 ]
+[ 318, 288, 21, 50, -7, 16 ]
+//Oberthal
+[ 347, 232, 21, 50, 16, 16 ]
+[ 346, 288, 21, 50, -7, 16 ]
+//Kormeny
+[ 375, 232, 21, 50, 16, 16 ]
+[ 374, 288, 21, 50, -7, 16 ]
+//Storalv Union
+[ 403, 232, 21, 50, 16, 16 ]
+[ 402, 288, 21, 50, -7, 16 ]
+//Cucuteni
+[ 431, 232, 24, 52, 17, 16 ]
+[ 430, 288, 24, 52, -8, 16 ]
+//Vardamaa
+[ 461, 232, 21, 50, 16, 16 ]
+[ 460, 288, 21, 50, -7, 16 ]
+//Frame3
+//Greifen
+[ 10, 346, 21, 50, 16, 16 ]
+[ 9, 402, 21, 50, -7, 16 ]
+//Zoryavia
+[ 38, 346, 21, 50, 16, 16 ]
+[ 37,402, 21, 50, -7, 16 ]
+//Roncevalie
+[ 65, 346, 21, 50, 16, 16 ]
+[ 64,402, 21, 50, -7, 16 ]
+//Dobrawia
+[ 93, 346, 21, 50, 16, 16 ]
+[ 92,402, 21, 50, -7, 16 ]
+//Halezeeland
+[ 121, 346, 21, 50, 16, 16 ]
+[ 120,402, 21, 50, -7, 16 ]
+//Avalon
+[ 149, 346, 21, 50, 16, 16 ]
+[ 148,402, 21, 50, -7, 16 ]
+//Tir Earnhain
+[ 177, 346, 21, 50, 16, 16 ]
+[ 176,402, 21, 50, -7, 16 ]
+//Strathcairn
+[ 205, 346, 23, 50, 16, 16 ]
+[ 204,402, 23, 50, -7, 16 ]
+//Tartesia
+[ 235, 346, 21, 50, 16, 16 ]
+[ 234,402, 21, 50, -7, 16 ]
+//Gnomish Hierarchy
+[ 263, 346, 21, 50, 16, 16 ]
+[ 262,402, 21, 50, -7, 16 ]
+//Dunwald
+[ 291, 344, 21, 52, 16, 14 ]
+[ 290, 400, 21, 52, -7, 14 ]
+//Nascenca
+[ 319, 346, 21, 50, 16, 16 ]
+[ 318,402, 21, 50, -7, 16 ]
+//Oberthal
+[ 347, 346, 21, 50, 16, 16 ]
+[ 346,402, 21, 50, -7, 16 ]
+//Kormeny
+[ 375, 346, 21, 50, 16, 16 ]
+[ 374,402, 21, 50, -7, 16 ]
+//Storalv Union
+[ 403, 346, 21, 50, 16, 16 ]
+[ 402,402, 21, 50, -7, 16 ]
+//Cucuteni
+[ 431, 346, 24, 52, 17, 16 ]
+[ 430,402, 24, 52, -8, 16 ]
+//Vardamaa
+[ 461, 346, 21, 50, 16, 16 ]
+[ 460,402, 21, 50, -7, 16 ]
+//Frame4
+//Greifen
+[ 10, 460, 21, 50, 16, 16 ]
+[ 9,516, 21, 50, -7, 16 ]
+//Zoryavia
+[ 38, 460, 21, 50, 16, 16 ]
+[ 37,516, 21, 50, -7, 16 ]
+//Roncevalie
+[ 65, 460, 21, 50, 16, 16 ]
+[ 64,516, 21, 50, -7, 16 ]
+//Dobrawia
+[ 93, 460, 21, 50, 16, 16 ]
+[ 92,516, 21, 50, -7, 16 ]
+//Halezeeland
+[ 121, 460, 21, 50, 16, 16 ]
+[ 120,516, 21, 50, -7, 16 ]
+//Avalon
+[ 149, 460, 21, 50, 16, 16 ]
+[ 148,516, 21, 50, -7, 16 ]
+//Tir Earnhain
+[ 177, 460, 21, 50, 16, 16 ]
+[ 176,516, 21, 50, -7, 16 ]
+//Strathcairn
+[ 205, 460, 23, 50, 16, 16 ]
+[ 204,516, 23, 50, -7, 16 ]
+//Tartesia
+[ 235, 460, 21, 50, 16, 16 ]
+[ 234,516, 21, 50, -7, 16 ]
+//Gnomish Hierarchy
+[ 263, 460, 21, 50, 16, 16 ]
+[ 262,516, 21, 50, -7, 16 ]
+//Dunwald
+[ 291, 458, 21, 52, 16, 14 ]
+[ 290, 514, 21, 52, -7, 14 ]
+//Nascenca
+[ 319, 460, 21, 50, 16, 16 ]
+[ 318,516, 21, 50, -7, 16 ]
+//Oberthal
+[ 347, 460, 21, 50, 16, 16 ]
+[ 346,516, 21, 50, -7, 16 ]
+//Kormeny
+[ 375, 460, 21, 50, 16, 16 ]
+[ 374,516, 21, 50, -7, 16 ]
+//Storalv Union
+[ 403, 460, 21, 50, 16, 16 ]
+[ 402,516, 21, 50, -7, 16 ]
+//Cucuteni
+[ 431, 460, 24, 52, 17, 16 ]
+[ 430,516, 24, 52, -8, 16 ]
+//Vardamaa
+[ 461, 460, 21, 50, 16, 16 ]
+[ 460,516, 21, 50, -7, 16 ]
+//Frame5
+//Greifen
+[ 10, 574, 21, 50, 16, 16 ]
+[ 9,630, 21, 50, -7, 16 ]
+//Zoryavia
+[ 38, 574, 21, 50, 16, 16 ]
+[ 37,630, 21, 50, -7, 16 ]
+//Roncevalie
+[ 65, 574, 21, 50, 16, 16 ]
+[ 64,630, 21, 50, -7, 16 ]
+//Dobrawia
+[ 93, 574, 21, 50, 16, 16 ]
+[ 92,630, 21, 50, -7, 16 ]
+//Halezeeland
+[ 121, 574, 21, 50, 16, 16 ]
+[ 120,630, 21, 50, -7, 16 ]
+//Avalon
+[ 149, 574, 21, 50, 16, 16 ]
+[ 148,630, 21, 50, -7, 16 ]
+//Tir Earnhain
+[ 177, 574, 21, 50, 16, 16 ]
+[ 176,630, 21, 50, -7, 16 ]
+//Strathcairn
+[ 205, 574, 23, 50, 16, 16 ]
+[ 204,630, 23, 50, -7, 16 ]
+//Tartesia
+[ 235, 574, 21, 50, 16, 16 ]
+[ 234,630, 21, 50, -7, 16 ]
+//Gnomish Hierarchy
+[ 263, 574, 21, 50, 16, 16 ]
+[ 262,630, 21, 50, -7, 16 ]
+//Dunwald
+[ 291, 572, 21, 52, 16, 14 ]
+[ 290, 628, 21, 52, -7, 14 ]
+//Nascenca
+[ 319, 574, 21, 50, 16, 16 ]
+[ 318,630, 21, 50, -7, 16 ]
+//Oberthal
+[ 347, 574, 21, 50, 16, 16 ]
+[ 346,630, 21, 50, -7, 16 ]
+//Kormeny
+[ 375, 574, 21, 50, 16, 16 ]
+[ 374,630, 21, 50, -7, 16 ]
+//Storalv Union
+[ 403, 574, 21, 50, 16, 16 ]
+[ 402,630, 21, 50, -7, 16 ]
+//Cucuteni
+[ 431, 574, 24, 52, 17, 16 ]
+[ 430,630, 24, 52, -8, 16 ]
+//Vardamaa
+[ 461, 574, 21, 50, 16, 16 ]
+[ 460,630, 21, 50, -7, 16 ]
+//Frame6
+//Greifen
+[ 10, 688, 21, 50, 16, 16 ]
+[ 9,744, 21, 50, -7, 16 ]
+//Zoryavia
+[ 38, 688, 21, 50, 16, 16 ]
+[ 37,744, 21, 50, -7, 16 ]
+//Roncevalie
+[ 65, 688, 21, 50, 16, 16 ]
+[ 64,744, 21, 50, -7, 16 ]
+//Dobrawia
+[ 93, 688, 21, 50, 16, 16 ]
+[ 92,744, 21, 50, -7, 16 ]
+//Halezeeland
+[ 121, 688, 21, 50, 16, 16 ]
+[ 120,744, 21, 50, -7, 16 ]
+//Avalon
+[ 149, 688, 21, 50, 16, 16 ]
+[ 148,744, 21, 50, -7, 16 ]
+//Tir Earnhain
+[ 177, 688, 21, 50, 16, 16 ]
+[ 176,744, 21, 50, -7, 16 ]
+//Strathcairn
+[ 205, 688, 23, 50, 16, 16 ]
+[ 204,744, 23, 50, -7, 16 ]
+//Tartesia
+[ 235, 688, 21, 50, 16, 16 ]
+[ 234,744, 21, 50, -7, 16 ]
+//Gnomish Hierarchy
+[ 263, 688, 21, 50, 16, 16 ]
+[ 262,744, 21, 50, -7, 16 ]
+//Dunwald
+[ 291, 686, 21, 52, 16, 14 ]
+[ 290, 742, 21, 52, -7, 14 ]
+//Nascenca
+[ 319, 688, 21, 50, 16, 16 ]
+[ 318,744, 21, 50, -7, 16 ]
+//Oberthal
+[ 347, 688, 21, 50, 16, 16 ]
+[ 346,744, 21, 50, -7, 16 ]
+//Kormeny
+[ 375, 688, 21, 50, 16, 16 ]
+[ 374,744, 21, 50, -7, 16 ]
+//Storalv Union
+[ 403, 688, 21, 50, 16, 16 ]
+[ 402,744, 21, 50, -7, 16 ]
+//Cucuteni
+[ 431, 688, 24, 52, 17, 16 ]
+[ 430,744, 24, 52, -8, 16 ]
+//Vardamaa
+[ 461, 688, 21, 50, 16, 16 ]
+[ 460,744, 21, 50, -7, 16 ]
+//Frame0
+//Greifen
+[ 10, 802, 21, 50, 16, 16 ]
+[ 9,858, 21, 50, -7, 16 ]
+//Zoryavia
+[ 38, 802, 21, 50, 16, 16 ]
+[ 37,858, 21, 50, -7, 16 ]
+//Roncevalie
+[ 65, 802, 21, 50, 16, 16 ]
+[ 64,858, 21, 50, -7, 16 ]
+//Dobrawia
+[ 93, 802, 21, 50, 16, 16 ]
+[ 92,858, 21, 50, -7, 16 ]
+//Halezeeland
+[ 121, 802, 21, 50, 16, 16 ]
+[ 120,858, 21, 50, -7, 16 ]
+//Avalon
+[ 149, 802, 21, 50, 16, 16 ]
+[ 148,858, 21, 50, -7, 16 ]
+//Tir Earnhain
+[ 177, 802, 21, 50, 16, 16 ]
+[ 176,858, 21, 50, -7, 16 ]
+//Strathcairn
+[ 205, 802, 23, 50, 16, 16 ]
+[ 204,858, 23, 50, -7, 16 ]
+//Tartesia
+[ 235, 802, 21, 50, 16, 16 ]
+[ 234,858, 21, 50, -7, 16 ]
+//Gnomish Hierarchy
+[ 263, 802, 21, 50, 16, 16 ]
+[ 262,858, 21, 50, -7, 16 ]
+//Dunwald
+[ 291, 800, 21, 52, 16, 14 ]
+[ 290, 856, 21, 52, -7, 14 ]
+//Nascenca
+[ 319, 802, 21, 50, 16, 16 ]
+[ 318,858, 21, 50, -7, 16 ]
+//Oberthal
+[ 347, 802, 21, 50, 16, 16 ]
+[ 346,858, 21, 50, -7, 16 ]
+//Kormeny
+[ 375, 802, 21, 50, 16, 16 ]
+[ 374,858, 21, 50, -7, 16 ]
+//Storalv Union
+[ 403, 802, 21, 50, 16, 16 ]
+[ 402,858, 21, 50, -7, 16 ]
+//Cucuteni
+[ 431, 802, 24, 52, 17, 16 ]
+[ 430,858, 24, 52, -8, 16 ]
+//Vardamaa
+[ 461, 802, 21, 50, 16, 16 ]
+[ 460,858, 21, 50, -7, 16 ]
+//Frame8
+//Greifen
+[ 10, 916, 21, 50, 16, 16 ]
+[ 9,972, 21, 50, -7, 16 ]
+//Zoryavia
+[ 38, 916, 21, 50, 16, 16 ]
+[ 37,972, 21, 50, -7, 16 ]
+//Roncevalie
+[ 65, 916, 21, 50, 16, 16 ]
+[ 64,972, 21, 50, -7, 16 ]
+//Dobrawia
+[ 93, 916, 21, 50, 16, 16 ]
+[ 92,972, 21, 50, -7, 16 ]
+//Halezeeland
+[ 121, 916, 21, 50, 16, 16 ]
+[ 120,972, 21, 50, -7, 16 ]
+//Avalon
+[ 149, 916, 21, 50, 16, 16 ]
+[ 148,972, 21, 50, -7, 16 ]
+//Tir Earnhain
+[ 177, 916, 21, 50, 16, 16 ]
+[ 176,972, 21, 50, -7, 16 ]
+//Strathcairn
+[ 205, 916, 23, 50, 16, 16 ]
+[ 204,972, 23, 50, -7, 16 ]
+//Tartesia
+[ 235, 916, 21, 50, 16, 16 ]
+[ 234,972, 21, 50, -7, 16 ]
+//Gnomish Hierarchy
+[ 263, 916, 21, 50, 16, 16 ]
+[ 262,972, 21, 50, -7, 16 ]
+//Dunwald
+[ 291, 914, 21, 52, 16, 14 ]
+[ 290, 970, 21, 52, -7, 14 ]
+//Nascenca
+[ 319, 916, 21, 50, 16, 16 ]
+[ 318,972, 21, 50, -7, 16 ]
+//Oberthal
+[ 347, 916, 21, 50, 16, 16 ]
+[ 346,972, 21, 50, -7, 16 ]
+//Kormeny
+[ 375, 916, 21, 50, 16, 16 ]
+[ 374,972, 21, 50, -7, 16 ]
+//Storalv Union
+[ 403, 916, 21, 50, 16, 16 ]
+[ 402,972, 21, 50, -7, 16 ]
+//Cucuteni
+[ 431, 916, 24, 52, 17, 16 ]
+[ 430,972, 24, 52, -8, 16 ]
+//Vardamaa
+[ 461, 916, 21, 50, 16, 16 ]
+[ 460,972, 21, 50, -7, 16 ]
+//Frame0
+//Greifen
+[ 10, 4, 21, 50, 16, 16 ]
+[ 9, 60, 21, 50, -7, 16 ]
+//Zoryavia
+[ 38, 4, 21, 50, 16, 16 ]
+[ 37, 60, 21, 50, -7, 16 ]
+//Roncevalie
+[ 65, 4, 21, 50, 16, 16 ]
+[ 64, 60, 21, 50, -7, 16 ]
+//Dobrawia
+[ 93, 4, 21, 50, 16, 16 ]
+[ 92, 60, 21, 50, -7, 16 ]
+//Halezeeland
+[ 121, 4, 21, 50, 16, 16 ]
+[ 120, 60, 21, 50, -7, 16 ]
+//Avalon
+[ 149, 4, 21, 50, 16, 16 ]
+[ 148, 60, 21, 50, -7, 16 ]
+//Tir Earnhain
+[ 177, 4, 21, 50, 16, 16 ]
+[ 176, 60, 21, 50, -7, 16 ]
+//Strathcairn
+[ 205, 4, 23, 50, 16, 16 ]
+[ 204, 60, 23, 50, -7, 16 ]
+//Tartesia
+[ 235, 4, 21, 50, 16, 16 ]
+[ 234, 60, 21, 50, -7, 16 ]
+//Gnomish Hierarchy
+[ 263, 4, 21, 50, 16, 16 ]
+[ 262, 60, 21, 50, -7, 16 ]
+//Dunwald
+[ 291, 2, 21, 52, 16, 14 ]
+[ 290, 58, 21, 52, -7, 14 ]
+//Nascenca
+[ 319, 4, 21, 50, 16, 16 ]
+[ 318, 60, 21, 50, -7, 16 ]
+//Oberthal
+[ 347, 4, 21, 50, 16, 16 ]
+[ 346, 60, 21, 50, -7, 16 ]
+//Kormeny
+[ 375, 4, 21, 50, 16, 16 ]
+[ 374, 60, 21, 50, -7, 16 ]
+//Storalv Union
+[ 403, 4, 21, 50, 16, 16 ]
+[ 402, 60, 21, 50, -7, 16 ]
+//Cucuteni
+[ 431, 4, 24, 52, 17, 16 ]
+[ 430, 60, 24, 52, -8, 16 ]
+//Vardamaa
+[ 461, 4, 21, 50, 16, 16 ]
+[ 460, 60, 21, 50, -7, 16 ]
 }
 
 
-spritelayout spritelayout_flag(orientation,flag) {
-    ground { sprite: GROUNDSPRITE_CONCRETE; }
+spritelayout spritelayout_flag(orientation,flag,frame) {
+    ground { sprite: GROUNDSPRITE_NORMAL; }
     building { sprite: spriteset_tower();
 				zextent: 70;
 				xoffset: 2;
@@ -83,7 +559,31 @@ spritelayout spritelayout_flag(orientation,flag) {
 
 	}
 	childsprite {
-	sprite: spriteset_flags(flag+orientation);
+	sprite: spriteset_flags(flag*2 + frame*34+orientation % 2);
+	}
+	childsprite {
+	sprite: spriteset_spinner(frame/2 % 2);
+	}
+}
+
+spritelayout spritelayout_flag_purchase(orientation,flag) {
+    ground { sprite: spriteset_empty; }
+    building { sprite: spriteset_tower();
+				zextent: 70;
+				zoffset: -16;
+				xoffset: 2;
+				yoffset: 2;
+				yextent: 12;
+				xextent: 12;}
+	childsprite {
+	sprite: spriteset_hanger(orientation);
+
+	}
+	childsprite {
+	sprite: spriteset_flags(flag*2 + orientation % 2);
+	}
+	childsprite {
+	sprite: spriteset_spinner(0);
 	}
 }
 
@@ -100,12 +600,18 @@ item (FEAT_OBJECTS, object_banner0) {
 		remove_cost_multiplier: 2;
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
-		object_flags:           bitmask();
+		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
+		animation_info:			[ANIMATION_LOOPING,10];
+		animation_speed:		2;
+		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
 	}
 	graphics {
-		default:         spritelayout_flag(view,0);
-		purchase:        spritelayout_flag(view,0);
+		default:         spritelayout_flag(view,0,animation_frame);
+		purchase:        spritelayout_flag_purchase(view,0);
+		anim_control:	return CB_RESULT_START_ANIMATION;
+		anim_next_frame:return (animation_frame == 9) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
+		additional_text:string(STR_ADD_0);
 	}
 }
 
@@ -119,12 +625,18 @@ item (FEAT_OBJECTS, object_banner1) {
 		remove_cost_multiplier: 2;
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
-		object_flags:           bitmask();
+		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
+		animation_info:			[ANIMATION_LOOPING,10];
+		animation_speed:		2;
+		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
 	}
 	graphics {
-		default:         spritelayout_flag(view,2);
-		purchase:        spritelayout_flag(view,2);
+		default:         spritelayout_flag(view,1,animation_frame);
+		purchase:        spritelayout_flag_purchase(view,1);
+		anim_control:	return CB_RESULT_START_ANIMATION;
+		anim_next_frame:return (animation_frame == 9) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
+		additional_text:string(STR_ADD_1);
 	}
 }
 
@@ -138,12 +650,18 @@ item (FEAT_OBJECTS, object_banner2) {
 		remove_cost_multiplier: 2;
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
-		object_flags:           bitmask();
+		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
+		animation_info:			[ANIMATION_LOOPING,10];
+		animation_speed:		2;
+		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
 	}
 	graphics {
-		default:         spritelayout_flag(view,4);
-		purchase:        spritelayout_flag(view,4);
+		default:         spritelayout_flag(view,2,animation_frame);
+		purchase:        spritelayout_flag_purchase(view,2);
+		anim_control:	return CB_RESULT_START_ANIMATION;
+		anim_next_frame:return (animation_frame == 9) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
+		additional_text:string(STR_ADD_2);
 	}
 }
 
@@ -157,12 +675,18 @@ item (FEAT_OBJECTS, object_banner3) {
 		remove_cost_multiplier: 2;
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
-		object_flags:           bitmask();
+		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
+		animation_info:			[ANIMATION_LOOPING,10];
+		animation_speed:		2;
+		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
 	}
 	graphics {
-		default:         spritelayout_flag(view,6);
-		purchase:        spritelayout_flag(view,6);
+		default:         spritelayout_flag(view,3,animation_frame);
+		purchase:        spritelayout_flag_purchase(view,3);
+		anim_control:	return CB_RESULT_START_ANIMATION;
+		anim_next_frame:return (animation_frame == 9) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
+		additional_text:string(STR_ADD_3);
 	}
 }
 
@@ -176,12 +700,18 @@ item (FEAT_OBJECTS, object_banner4) {
 		remove_cost_multiplier: 2;
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
-		object_flags:           bitmask();
+		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
+		animation_info:			[ANIMATION_LOOPING,10];
+		animation_speed:		2;
+		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
 	}
 	graphics {
-		default:         spritelayout_flag(view,8);
-		purchase:        spritelayout_flag(view,8);
+		default:         spritelayout_flag(view,4,animation_frame);
+		purchase:        spritelayout_flag_purchase(view,4);
+		anim_control:	return CB_RESULT_START_ANIMATION;
+		anim_next_frame:return (animation_frame == 9) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
+		additional_text:string(STR_ADD_4);
 	}
 }
 
@@ -195,12 +725,18 @@ item (FEAT_OBJECTS, object_banner5) {
 		remove_cost_multiplier: 2;
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
-		object_flags:           bitmask();
+		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
+		animation_info:			[ANIMATION_LOOPING,10];
+		animation_speed:		2;
+		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
 	}
 	graphics {
-		default:         spritelayout_flag(view,10);
-		purchase:        spritelayout_flag(view,10);
+		default:         spritelayout_flag(view,5,animation_frame);
+		purchase:        spritelayout_flag_purchase(view,5);
+		anim_control:	return CB_RESULT_START_ANIMATION;
+		anim_next_frame:return (animation_frame == 9) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
+		additional_text:string(STR_ADD_5);
 	}
 }
 
@@ -214,12 +750,18 @@ item (FEAT_OBJECTS, object_banner6) {
 		remove_cost_multiplier: 2;
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
-		object_flags:           bitmask();
+		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
+		animation_info:			[ANIMATION_LOOPING,10];
+		animation_speed:		2;
+		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
 	}
 	graphics {
-		default:         spritelayout_flag(view,12);
-		purchase:        spritelayout_flag(view,12);
+		default:         spritelayout_flag(view,6,animation_frame);
+		purchase:        spritelayout_flag_purchase(view,6);
+		anim_control:	return CB_RESULT_START_ANIMATION;
+		anim_next_frame:return (animation_frame == 9) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
+		additional_text:string(STR_ADD_6);
 	}
 }
 
@@ -233,13 +775,19 @@ item (FEAT_OBJECTS, object_banner7) {
 		remove_cost_multiplier: 2;
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
-		object_flags:           bitmask();
+		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
+		animation_info:			[ANIMATION_LOOPING,10];
+		animation_speed:		2;
+		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
 	}
 	graphics {
-		default:         spritelayout_flag(view,14);
-		purchase:        spritelayout_flag(view,14);
-	}
+		default:         spritelayout_flag(view,7,animation_frame);
+		purchase:        spritelayout_flag_purchase(view,7);
+		anim_control:	return CB_RESULT_START_ANIMATION;
+		anim_next_frame:return (animation_frame == 9) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
+		additional_text:string(STR_ADD_7);
+}
 }
 
 item (FEAT_OBJECTS, object_banner8) {
@@ -252,12 +800,18 @@ item (FEAT_OBJECTS, object_banner8) {
 		remove_cost_multiplier: 2;
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
-		object_flags:           bitmask();
+		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
+		animation_info:			[ANIMATION_LOOPING,10];
+		animation_speed:		2;
+		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
 	}
 	graphics {
-		default:         spritelayout_flag(view,16);
-		purchase:        spritelayout_flag(view,16);
+		default:         spritelayout_flag(view,8,animation_frame);
+		purchase:        spritelayout_flag_purchase(view,8);
+		anim_control:	return CB_RESULT_START_ANIMATION;
+		anim_next_frame:return (animation_frame == 9) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
+		additional_text:string(STR_ADD_8);
 	}
 }
 
@@ -271,12 +825,18 @@ item (FEAT_OBJECTS, object_banner9) {
 		remove_cost_multiplier: 2;
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
-		object_flags:           bitmask();
+		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
+		animation_info:			[ANIMATION_LOOPING,10];
+		animation_speed:		2;
+		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
 	}
 	graphics {
-		default:         spritelayout_flag(view,18);
-		purchase:        spritelayout_flag(view,18);
+		default:         spritelayout_flag(view,9,animation_frame);
+		purchase:        spritelayout_flag_purchase(view,9);
+		anim_control:	return CB_RESULT_START_ANIMATION;
+		anim_next_frame:return (animation_frame == 9) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
+		additional_text:string(STR_ADD_9);
 	}
 }
 
@@ -290,12 +850,18 @@ item (FEAT_OBJECTS, object_banner10) {
 		remove_cost_multiplier: 2;
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
-		object_flags:           bitmask();
+		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
+		animation_info:			[ANIMATION_LOOPING,10];
+		animation_speed:		2;
+		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
 	}
 	graphics {
-		default:         spritelayout_flag(view,20);
-		purchase:        spritelayout_flag(view,20);
+		default:         spritelayout_flag(view,10,animation_frame);
+		purchase:        spritelayout_flag_purchase(view,10);
+		anim_control:	return CB_RESULT_START_ANIMATION;
+		anim_next_frame:return (animation_frame == 9) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
+		additional_text:string(STR_ADD_10);
 	}
 }
 
@@ -309,12 +875,18 @@ item (FEAT_OBJECTS, object_banner11) {
 		remove_cost_multiplier: 2;
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
-		object_flags:           bitmask();
+		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
+		animation_info:			[ANIMATION_LOOPING,10];
+		animation_speed:		2;
+		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
 	}
 	graphics {
-		default:         spritelayout_flag(view,22);
-		purchase:        spritelayout_flag(view,22);
+		default:         spritelayout_flag(view,11,animation_frame);
+		purchase:        spritelayout_flag_purchase(view,11);
+		anim_control:	return CB_RESULT_START_ANIMATION;
+		anim_next_frame:return (animation_frame == 9) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
+		additional_text:string(STR_ADD_11);
 	}
 }
 
@@ -328,12 +900,18 @@ item (FEAT_OBJECTS, object_banner12) {
 		remove_cost_multiplier: 2;
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
-		object_flags:           bitmask();
+		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
+		animation_info:			[ANIMATION_LOOPING,10];
+		animation_speed:		2;
+		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
 	}
 	graphics {
-		default:         spritelayout_flag(view,24);
-		purchase:        spritelayout_flag(view,24);
+		default:         spritelayout_flag(view,12,animation_frame);
+		purchase:        spritelayout_flag_purchase(view,12);
+		anim_control:	return CB_RESULT_START_ANIMATION;
+		anim_next_frame:return (animation_frame == 9) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
+		additional_text:string(STR_ADD_12);
 	}
 }
 
@@ -347,12 +925,18 @@ item (FEAT_OBJECTS, object_banner13) {
 		remove_cost_multiplier: 2;
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
-		object_flags:           bitmask();
+		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
+		animation_info:			[ANIMATION_LOOPING,10];
+		animation_speed:		2;
+		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
 	}
 	graphics {
-		default:         spritelayout_flag(view,26);
-		purchase:        spritelayout_flag(view,26);
+		default:         spritelayout_flag(view,13,animation_frame);
+		purchase:        spritelayout_flag_purchase(view,13);
+		anim_control:	return CB_RESULT_START_ANIMATION;
+		anim_next_frame:return (animation_frame == 9) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
+		additional_text:string(STR_ADD_13);
 	}
 }
 
@@ -366,12 +950,18 @@ item (FEAT_OBJECTS, object_banner14) {
 		remove_cost_multiplier: 2;
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
-		object_flags:           bitmask();
+		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
+		animation_info:			[ANIMATION_LOOPING,10];
+		animation_speed:		2;
+		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
 	}
 	graphics {
-		default:         spritelayout_flag(view,28);
-		purchase:        spritelayout_flag(view,28);
+		default:         spritelayout_flag(view,14,animation_frame);
+		purchase:        spritelayout_flag_purchase(view,14);
+		anim_control:	return CB_RESULT_START_ANIMATION;
+		anim_next_frame:return (animation_frame == 9) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
+		additional_text:string(STR_ADD_14);
 	}
 }
 
@@ -385,12 +975,18 @@ item (FEAT_OBJECTS, object_banner15) {
 		remove_cost_multiplier: 2;
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
-		object_flags:           bitmask();
+		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
+		animation_info:			[ANIMATION_LOOPING,10];
+		animation_speed:		2;
+		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
 	}
 	graphics {
-		default:         spritelayout_flag(view,30);
-		purchase:        spritelayout_flag(view,30);
+		default:         spritelayout_flag(view,15,animation_frame);
+		purchase:        spritelayout_flag_purchase(view,15);
+		anim_control:	return CB_RESULT_START_ANIMATION;
+		anim_next_frame:return (animation_frame == 9) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
+		additional_text:string(STR_ADD_15);
 	}
 }
 
@@ -404,11 +1000,17 @@ item (FEAT_OBJECTS, object_banner16) {
 		remove_cost_multiplier: 2;
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
-		object_flags:           bitmask();
+		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
+		animation_info:			[ANIMATION_LOOPING,10];
+		animation_speed:		2;
+		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
 	}
 	graphics {
-		default:         spritelayout_flag(view,32);
-		purchase:        spritelayout_flag(view,32);
+		default:         spritelayout_flag(view,16,animation_frame);
+		purchase:        spritelayout_flag_purchase(view,16);
+		anim_control:	return CB_RESULT_START_ANIMATION;
+		anim_next_frame:return (animation_frame == 9) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
+		additional_text:string(STR_ADD_16);
 	}
 }

@@ -6,21 +6,37 @@ STR_GRF_DESC:A collection of fantastic banners to decorate your save.
 STR_GRF_URL:https://github.com/AH1684/fantasybanners-openttd
 
 STR_FBN2:Banners
-STR_OBJ_flag0:Banner of The Republic of Greifenland
+STR_OBJ_flag0:Banner of The Republic of
+STR_ADD_0:Freiheit, Gleichheit, Brüderlichkeit oder Tod
 STR_OBJ_flag1:Banner of The Tsardom of Zoryavia
+STR_ADD_1:The Blue Lapis palace husbands the serfs.
 STR_OBJ_flag2:Banner of The Kingdom of Roncevalie
+STR_ADD_2:Vive La Vie, Vive Le Vin!
 STR_OBJ_flag3:Banner of The Kingdom of Dobrawia
+STR_ADD_3:The Stalwart Hlt of Vardamaa
 STR_OBJ_flag4:Banner of The Halezeelanden Republic
+STR_ADD_4:Freedom of Trade, Commerce, and Man
 STR_OBJ_flag5:Banner of The Commonwealth of Avalon
+STR_ADD_5:5 Kingdoms lead by Her Majesty of Avalon!
 STR_OBJ_flag6:Banner of The High Kingdom of Tír Eeamhain
+STR_ADD_6:Peace in Isolation.
 STR_OBJ_flag7:Banner of Tanic Electors of Strathcairn
+STR_ADD_7:Elected Clans since 20K B.C.
 STR_OBJ_flag8:Banner of Republic of Tartesia
+STR_ADD_8:Strength in Our Free Industry
 STR_OBJ_flag9:Banner of Perfidious & Dictatorial Gnomish Hierarchy
+STR_ADD_9:Progress above Ethics, Gnomes over All!
 STR_OBJ_flag10:Banner of The Free Port of Dunwald
+STR_ADD_10:The Freeport at the Center of the World!
 STR_OBJ_flag11:Banner of The Kingdom of Nasenca
+STR_ADD_11:Winter Shapes The Strongest
 STR_OBJ_flag12:Banner of The Kingdom of Oberthal
+STR_ADD_12:The Excellent Royal Goldsmiths
 STR_OBJ_flag13:Banner of The Kingdom of Körmény
+STR_ADD_13:The Excellent Royal Coppersmiths
 STR_OBJ_flag14:Banner of The Storälv Union
+STR_ADD_14:Prosperity Under The Storälvs
 STR_OBJ_flag15:Banner of The Cucenti Confederation
+STR_ADD_15:Cucenti for Each, and All for Cucenti
 STR_OBJ_flag16:Banner of Horde of Vardamaa
-
+STR_ADD_16:The Undying Horde Marches!
