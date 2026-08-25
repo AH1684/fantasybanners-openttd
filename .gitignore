@@ -2,6 +2,8 @@
 *.grf
 .nmlcache/*
 frame[0-9].png
+frame1[0-9].png
 framepart*.png
 outputmask.png
 wavemask2.png
+spriteset.txt

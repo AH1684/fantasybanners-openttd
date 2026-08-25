@@ -1,7 +1,7 @@
 #!/usr/bin/env fish
 magick banners.png -background Blue -alpha remove -alpha off frame0.png
 rm spriteset.txt
-set f 14
+set f 16
 for i in $(seq 1 $f)
 	set filename $(string join '' frame $i .png)
 	echo $filename

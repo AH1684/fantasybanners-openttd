@@ -803,7 +803,110 @@ spriteset(spriteset_flags, "gfx/frames.png") {
 //Vardamaa
 [ 461, 1600, 21, 50, 16, 16 ]
 [ 460, 1656, 21, 50, -7, 16 ]
-
+//Frame 15
+//Greifen
+[ 10, 1714, 21, 50, 16, 16 ]
+[ 9, 1770, 21, 50, -7, 16 ]
+//Zoryavia
+[ 38, 1714, 21, 50, 16, 16 ]
+[ 37, 1770, 21, 50, -7, 16 ]
+//Roncevalie
+[ 65, 1714, 21, 50, 16, 16 ]
+[ 64, 1770, 21, 50, -7, 16 ]
+//Dobrawia
+[ 93, 1714, 21, 50, 16, 16 ]
+[ 92, 1770, 21, 50, -7, 16 ]
+//Halezeeland
+[ 121, 1714, 21, 50, 16, 16 ]
+[ 120, 1770, 21, 50, -7, 16 ]
+//Avalon
+[ 149, 1714, 21, 50, 16, 16 ]
+[ 148, 1770, 21, 50, -7, 16 ]
+//Tir Earnhain
+[ 177, 1714, 21, 50, 16, 16 ]
+[ 176, 1770, 21, 50, -7, 16 ]
+//Strathcairn
+[ 205, 1714, 23, 50, 16, 16 ]
+[ 204, 1770, 23, 50, -7, 16 ]
+//Tartesia
+[ 235, 1714, 21, 50, 16, 16 ]
+[ 234, 1770, 21, 50, -7, 16 ]
+//Gnomish Hierarchy
+[ 263, 1714, 21, 50, 16, 16 ]
+[ 262, 1770, 21, 50, -7, 16 ]
+//Dunwald
+[ 291, 1712, 21, 52, 16, 14 ]
+[ 290, 1768, 21, 52, -7, 14 ]
+//Nascenca
+[ 319, 1714, 21, 50, 16, 16 ]
+[ 318, 1770, 21, 50, -7, 16 ]
+//Oberthal
+[ 347, 1714, 21, 50, 16, 16 ]
+[ 346, 1770, 21, 50, -7, 16 ]
+//Kormeny
+[ 375, 1714, 21, 50, 16, 16 ]
+[ 374, 1770, 21, 50, -7, 16 ]
+//Storalv Union
+[ 403, 1714, 21, 50, 16, 16 ]
+[ 402, 1770, 21, 50, -7, 16 ]
+//Cucuteni
+[ 431, 1714, 24, 52, 17, 16 ]
+[ 430, 1770, 24, 52, -8, 16 ]
+//Vardamaa
+[ 461, 1714, 21, 50, 16, 16 ]
+[ 460, 1770, 21, 50, -7, 16 ]
+//Frame 16
+//Greifen
+[ 10, 1828, 21, 50, 16, 16 ]
+[ 9, 1884, 21, 50, -7, 16 ]
+//Zoryavia
+[ 38, 1828, 21, 50, 16, 16 ]
+[ 37, 1884, 21, 50, -7, 16 ]
+//Roncevalie
+[ 65, 1828, 21, 50, 16, 16 ]
+[ 64, 1884, 21, 50, -7, 16 ]
+//Dobrawia
+[ 93, 1828, 21, 50, 16, 16 ]
+[ 92, 1884, 21, 50, -7, 16 ]
+//Halezeeland
+[ 121, 1828, 21, 50, 16, 16 ]
+[ 120, 1884, 21, 50, -7, 16 ]
+//Avalon
+[ 149, 1828, 21, 50, 16, 16 ]
+[ 148, 1884, 21, 50, -7, 16 ]
+//Tir Earnhain
+[ 177, 1828, 21, 50, 16, 16 ]
+[ 176, 1884, 21, 50, -7, 16 ]
+//Strathcairn
+[ 205, 1828, 23, 50, 16, 16 ]
+[ 204, 1884, 23, 50, -7, 16 ]
+//Tartesia
+[ 235, 1828, 21, 50, 16, 16 ]
+[ 234, 1884, 21, 50, -7, 16 ]
+//Gnomish Hierarchy
+[ 263, 1828, 21, 50, 16, 16 ]
+[ 262, 1884, 21, 50, -7, 16 ]
+//Dunwald
+[ 291, 1826, 21, 52, 16, 14 ]
+[ 290, 1882, 21, 52, -7, 14 ]
+//Nascenca
+[ 319, 1828, 21, 50, 16, 16 ]
+[ 318, 1884, 21, 50, -7, 16 ]
+//Oberthal
+[ 347, 1828, 21, 50, 16, 16 ]
+[ 346, 1884, 21, 50, -7, 16 ]
+//Kormeny
+[ 375, 1828, 21, 50, 16, 16 ]
+[ 374, 1884, 21, 50, -7, 16 ]
+//Storalv Union
+[ 403, 1828, 21, 50, 16, 16 ]
+[ 402, 1884, 21, 50, -7, 16 ]
+//Cucuteni
+[ 431, 1828, 24, 52, 17, 16 ]
+[ 430, 1884, 24, 52, -8, 16 ]
+//Vardamaa
+[ 461, 1828, 21, 50, 16, 16 ]
+[ 460, 1884, 21, 50, -7, 16 ]
 }
 
 
@@ -862,7 +965,7 @@ item (FEAT_OBJECTS, object_banner0) {
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
 		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
-		animation_info:			[ANIMATION_LOOPING,15];
+		animation_info:			[ANIMATION_LOOPING,17];
 		animation_speed:		2;
 		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
@@ -870,8 +973,8 @@ item (FEAT_OBJECTS, object_banner0) {
 	graphics {
 		default:         spritelayout_flag(view,0,animation_frame);
 		purchase:        spritelayout_flag_purchase(view,0);
-		anim_control:	return CB_RESULT_NEXT_FRAME;
-		anim_next_frame:return CB_RESULT_NEXT_FRAME;
+		anim_control:	return 1;
+		anim_next_frame:return (animation_frame==0) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
 		additional_text:string(STR_ADD_0);
 	}
 }
@@ -887,7 +990,7 @@ item (FEAT_OBJECTS, object_banner1) {
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
 		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
-		animation_info:			[ANIMATION_LOOPING,15];
+		animation_info:			[ANIMATION_LOOPING,17];
 		animation_speed:		2;
 		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
@@ -895,8 +998,8 @@ item (FEAT_OBJECTS, object_banner1) {
 	graphics {
 		default:         spritelayout_flag(view,1,animation_frame);
 		purchase:        spritelayout_flag_purchase(view,1);
-		anim_control:	return CB_RESULT_NEXT_FRAME;
-		anim_next_frame:return CB_RESULT_NEXT_FRAME;
+		anim_control:	return 1;
+		anim_next_frame:return (animation_frame==0) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
 		additional_text:string(STR_ADD_1);
 	}
 }
@@ -912,7 +1015,7 @@ item (FEAT_OBJECTS, object_banner2) {
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
 		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
-		animation_info:			[ANIMATION_LOOPING,15];
+		animation_info:			[ANIMATION_LOOPING,17];
 		animation_speed:		2;
 		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
@@ -920,8 +1023,8 @@ item (FEAT_OBJECTS, object_banner2) {
 	graphics {
 		default:         spritelayout_flag(view,2,animation_frame);
 		purchase:        spritelayout_flag_purchase(view,2);
-		anim_control:	return CB_RESULT_NEXT_FRAME;
-		anim_next_frame:return CB_RESULT_NEXT_FRAME;
+		anim_control:	return 1;
+		anim_next_frame:return (animation_frame==0) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
 		additional_text:string(STR_ADD_2);
 	}
 }
@@ -937,7 +1040,7 @@ item (FEAT_OBJECTS, object_banner3) {
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
 		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
-		animation_info:			[ANIMATION_LOOPING,15];
+		animation_info:			[ANIMATION_LOOPING,17];
 		animation_speed:		2;
 		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
@@ -945,8 +1048,8 @@ item (FEAT_OBJECTS, object_banner3) {
 	graphics {
 		default:         spritelayout_flag(view,3,animation_frame);
 		purchase:        spritelayout_flag_purchase(view,3);
-		anim_control:	return CB_RESULT_NEXT_FRAME;
-		anim_next_frame:return CB_RESULT_NEXT_FRAME;
+		anim_control:	return 1;
+		anim_next_frame:return (animation_frame==0) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
 		additional_text:string(STR_ADD_3);
 	}
 }
@@ -962,7 +1065,7 @@ item (FEAT_OBJECTS, object_banner4) {
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
 		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
-		animation_info:			[ANIMATION_LOOPING,15];
+		animation_info:			[ANIMATION_LOOPING,17];
 		animation_speed:		2;
 		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
@@ -970,8 +1073,8 @@ item (FEAT_OBJECTS, object_banner4) {
 	graphics {
 		default:         spritelayout_flag(view,4,animation_frame);
 		purchase:        spritelayout_flag_purchase(view,4);
-		anim_control:	return CB_RESULT_NEXT_FRAME;
-		anim_next_frame:return CB_RESULT_NEXT_FRAME;
+		anim_control:	return 1;
+		anim_next_frame:return (animation_frame==0) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
 		additional_text:string(STR_ADD_4);
 	}
 }
@@ -987,7 +1090,7 @@ item (FEAT_OBJECTS, object_banner5) {
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
 		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
-		animation_info:			[ANIMATION_LOOPING,15];
+		animation_info:			[ANIMATION_LOOPING,17];
 		animation_speed:		2;
 		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
@@ -995,8 +1098,8 @@ item (FEAT_OBJECTS, object_banner5) {
 	graphics {
 		default:         spritelayout_flag(view,5,animation_frame);
 		purchase:        spritelayout_flag_purchase(view,5);
-		anim_control:	return CB_RESULT_NEXT_FRAME;
-		anim_next_frame:return CB_RESULT_NEXT_FRAME;
+		anim_control:	return 1;
+		anim_next_frame:return (animation_frame==0) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
 		additional_text:string(STR_ADD_5);
 	}
 }
@@ -1012,7 +1115,7 @@ item (FEAT_OBJECTS, object_banner6) {
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
 		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
-		animation_info:			[ANIMATION_LOOPING,15];
+		animation_info:			[ANIMATION_LOOPING,17];
 		animation_speed:		2;
 		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
@@ -1020,8 +1123,8 @@ item (FEAT_OBJECTS, object_banner6) {
 	graphics {
 		default:         spritelayout_flag(view,6,animation_frame);
 		purchase:        spritelayout_flag_purchase(view,6);
-		anim_control:	return CB_RESULT_NEXT_FRAME;
-		anim_next_frame:return CB_RESULT_NEXT_FRAME;
+		anim_control:	return 1;
+		anim_next_frame:return (animation_frame==0) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
 		additional_text:string(STR_ADD_6);
 	}
 }
@@ -1037,7 +1140,7 @@ item (FEAT_OBJECTS, object_banner7) {
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
 		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
-		animation_info:			[ANIMATION_LOOPING,15];
+		animation_info:			[ANIMATION_LOOPING,17];
 		animation_speed:		2;
 		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
@@ -1045,8 +1148,8 @@ item (FEAT_OBJECTS, object_banner7) {
 	graphics {
 		default:         spritelayout_flag(view,7,animation_frame);
 		purchase:        spritelayout_flag_purchase(view,7);
-		anim_control:	return CB_RESULT_NEXT_FRAME;
-		anim_next_frame:return CB_RESULT_NEXT_FRAME;
+		anim_control:	return 1;
+		anim_next_frame:return (animation_frame==0) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
 		additional_text:string(STR_ADD_7);
 }
 }
@@ -1062,7 +1165,7 @@ item (FEAT_OBJECTS, object_banner8) {
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
 		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
-		animation_info:			[ANIMATION_LOOPING,15];
+		animation_info:			[ANIMATION_LOOPING,17];
 		animation_speed:		2;
 		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
@@ -1070,8 +1173,8 @@ item (FEAT_OBJECTS, object_banner8) {
 	graphics {
 		default:         spritelayout_flag(view,8,animation_frame);
 		purchase:        spritelayout_flag_purchase(view,8);
-		anim_control:	return CB_RESULT_NEXT_FRAME;
-		anim_next_frame:return CB_RESULT_NEXT_FRAME;
+		anim_control:	return 1;
+		anim_next_frame:return (animation_frame==0) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
 		additional_text:string(STR_ADD_8);
 	}
 }
@@ -1087,7 +1190,7 @@ item (FEAT_OBJECTS, object_banner9) {
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
 		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
-		animation_info:			[ANIMATION_LOOPING,15];
+		animation_info:			[ANIMATION_LOOPING,17];
 		animation_speed:		2;
 		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
@@ -1095,8 +1198,8 @@ item (FEAT_OBJECTS, object_banner9) {
 	graphics {
 		default:         spritelayout_flag(view,9,animation_frame);
 		purchase:        spritelayout_flag_purchase(view,9);
-		anim_control:	return CB_RESULT_NEXT_FRAME;
-		anim_next_frame:return CB_RESULT_NEXT_FRAME;
+		anim_control:	return 1;
+		anim_next_frame:return (animation_frame==0) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
 		additional_text:string(STR_ADD_9);
 	}
 }
@@ -1112,7 +1215,7 @@ item (FEAT_OBJECTS, object_banner10) {
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
 		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
-		animation_info:			[ANIMATION_LOOPING,15];
+		animation_info:			[ANIMATION_LOOPING,17];
 		animation_speed:		2;
 		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
@@ -1120,8 +1223,8 @@ item (FEAT_OBJECTS, object_banner10) {
 	graphics {
 		default:         spritelayout_flag(view,10,animation_frame);
 		purchase:        spritelayout_flag_purchase(view,10);
-		anim_control:	return CB_RESULT_NEXT_FRAME;
-		anim_next_frame:return CB_RESULT_NEXT_FRAME;
+		anim_control:	return 1;
+		anim_next_frame:return (animation_frame==0) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
 		additional_text:string(STR_ADD_10);
 	}
 }
@@ -1137,7 +1240,7 @@ item (FEAT_OBJECTS, object_banner11) {
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
 		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
-		animation_info:			[ANIMATION_LOOPING,15];
+		animation_info:			[ANIMATION_LOOPING,17];
 		animation_speed:		2;
 		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
@@ -1145,8 +1248,8 @@ item (FEAT_OBJECTS, object_banner11) {
 	graphics {
 		default:         spritelayout_flag(view,11,animation_frame);
 		purchase:        spritelayout_flag_purchase(view,11);
-		anim_control:	return CB_RESULT_NEXT_FRAME;
-		anim_next_frame:return CB_RESULT_NEXT_FRAME;
+		anim_control:	return 1;
+		anim_next_frame:return (animation_frame==0) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
 		additional_text:string(STR_ADD_11);
 	}
 }
@@ -1162,7 +1265,7 @@ item (FEAT_OBJECTS, object_banner12) {
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
 		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
-		animation_info:			[ANIMATION_LOOPING,15];
+		animation_info:			[ANIMATION_LOOPING,17];
 		animation_speed:		2;
 		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
@@ -1170,8 +1273,8 @@ item (FEAT_OBJECTS, object_banner12) {
 	graphics {
 		default:         spritelayout_flag(view,12,animation_frame);
 		purchase:        spritelayout_flag_purchase(view,12);
-		anim_control:	return CB_RESULT_NEXT_FRAME;
-		anim_next_frame:return CB_RESULT_NEXT_FRAME;
+		anim_control:	return 1;
+		anim_next_frame:return (animation_frame==0) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
 		additional_text:string(STR_ADD_12);
 	}
 }
@@ -1187,7 +1290,7 @@ item (FEAT_OBJECTS, object_banner13) {
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
 		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
-		animation_info:			[ANIMATION_LOOPING,15];
+		animation_info:			[ANIMATION_LOOPING,17];
 		animation_speed:		2;
 		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
@@ -1195,8 +1298,8 @@ item (FEAT_OBJECTS, object_banner13) {
 	graphics {
 		default:         spritelayout_flag(view,13,animation_frame);
 		purchase:        spritelayout_flag_purchase(view,13);
-		anim_control:	return CB_RESULT_NEXT_FRAME;
-		anim_next_frame:return CB_RESULT_NEXT_FRAME;
+		anim_control:	return 1;
+		anim_next_frame:return (animation_frame==0) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
 		additional_text:string(STR_ADD_13);
 	}
 }
@@ -1212,7 +1315,7 @@ item (FEAT_OBJECTS, object_banner14) {
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
 		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
-		animation_info:			[ANIMATION_LOOPING,15];
+		animation_info:			[ANIMATION_LOOPING,17];
 		animation_speed:		2;
 		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
@@ -1220,8 +1323,8 @@ item (FEAT_OBJECTS, object_banner14) {
 	graphics {
 		default:         spritelayout_flag(view,14,animation_frame);
 		purchase:        spritelayout_flag_purchase(view,14);
-		anim_control:	return CB_RESULT_NEXT_FRAME;
-		anim_next_frame:return CB_RESULT_NEXT_FRAME;
+		anim_control:	return 1;
+		anim_next_frame:return (animation_frame==0) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
 		additional_text:string(STR_ADD_14);
 	}
 }
@@ -1237,7 +1340,7 @@ item (FEAT_OBJECTS, object_banner15) {
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
 		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
-		animation_info:			[ANIMATION_LOOPING,15];
+		animation_info:			[ANIMATION_LOOPING,17];
 		animation_speed:		2;
 		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
@@ -1245,8 +1348,8 @@ item (FEAT_OBJECTS, object_banner15) {
 	graphics {
 		default:         spritelayout_flag(view,15,animation_frame);
 		purchase:        spritelayout_flag_purchase(view,15);
-		anim_control:	return CB_RESULT_NEXT_FRAME;
-		anim_next_frame:return (animation_frame == 9) ? CB_RESULT_STOP_ANIMATION  :CB_RESULT_NEXT_FRAME;
+		anim_control:	return 1;
+		anim_next_frame:return (animation_frame==0) ? CB_RESULT_STOP_ANIMATION  : CB_RESULT_NEXT_FRAME;
 		additional_text:string(STR_ADD_15);
 	}
 }
@@ -1262,7 +1365,7 @@ item (FEAT_OBJECTS, object_banner16) {
 		introduction_date:      0x00000000;
 		end_of_life_date:       0xFFFFFFFF;
 		object_flags:           bitmask(OBJ_FLAG_ANIMATED);
-		animation_info:			[ANIMATION_LOOPING,15];
+		animation_info:			[ANIMATION_LOOPING,17];
 		animation_speed:		2;
 		animation_triggers:		ANIM_TRIGGER_OBJ_256_TICKS;
 		num_views:              2;
@@ -1270,8 +1373,8 @@ item (FEAT_OBJECTS, object_banner16) {
 	graphics {
 		default:         spritelayout_flag(view,16,animation_frame);
 		purchase:        spritelayout_flag_purchase(view,16);
-		anim_control:	return CB_RESULT_NEXT_FRAME;
-		anim_next_frame:return CB_RESULT_NEXT_FRAME;
+		anim_control:	return 1;
+		anim_next_frame:return (animation_frame==0) ? CB_RESULT_STOP_ANIMATION : CB_RESULT_NEXT_FRAME;
 		additional_text:string(STR_ADD_16);
 	}
 }
